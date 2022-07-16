@@ -1,0 +1,87 @@
+.homecontainer{
+    display: flex;
+    background-color: rgb(252, 254, 254);
+    padding: .4rem;
+    flex-direction: row;
+    z-index: 1999;
+    position: absolute;
+    transform: rotateX(0deg);
+    transition: all .3s ease-in-out 0s;
+    transform-origin: center top 0;
+    box-shadow: 0px 0px 3px rgb(158, 151, 151);
+    top: 12.6%;
+   
+}
+
+.homecontainer.active{
+    transform: rotateX(90deg);
+    transition: all .3s ease-out 0s;
+}
+
+
+:after ,:before{
+box-sizing: border-box;
+}
+
+.homecontainer div{
+    min-width: 18vw;
+}
+
+.homecontainer h3{
+    text-transform: uppercase;
+    font-size: smaller;
+    padding: .4rem 0rem;
+}
+
+.homecontainer h3:hover{
+    color: rgb(144, 82, 202);
+}
+
+.homecontainer ul{
+    padding: 0 1rem;
+}
+
+.homecontainer ul > li{
+    list-style: none;
+    position: relative;
+    font-size: smaller;
+    padding: .4rem 0rem;
+    transition: all 0.10s ease-in-out;
+}
+
+.homecontainer ul > li:hover{
+    padding-left: 15px;
+    color: rgb(144, 82, 202);
+}
+
+.homecontainer ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+.homecontainer ul li:hover a{
+    
+     color: rgb(144, 82, 202);
+
+}
+
+.homecontainer ul > li:hover a:before{
+    
+   opacity: 1;
+
+}
+
+.homecontainer ul li a:before{
+   height: 7px;
+   width: 7px;
+   opacity: 0;
+   content: "";
+   position: absolute;
+   z-index: 999;
+   top: 14px;
+    left: 2px;
+   background-color: rgb(110, 28, 187);
+   border-radius: 50%;
+   transition: all .3s ease-in-out 0s;
+  
+}

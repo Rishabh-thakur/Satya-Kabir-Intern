@@ -1,0 +1,44 @@
+.select-bar{
+    margin: .6rem 0 0 .6rem;
+    /* background-color: aquamarine; */
+}
+
+.select-bar div{
+    padding: 1.5rem 0 0 0;
+}
+
+.select-bar div h4{
+   font-weight: 500;
+}
+
+.select-bar select{
+    margin: 10px 0 0 0;
+    width: 95%;
+    font-size: 15px;
+    padding: .6rem .4rem;
+    border: 1px solid rgb(227, 221, 221);
+}
+
+.contact-info{
+    margin: 4rem 0.3rem 3rem 1rem;
+}
+
+.contact-info p{
+    padding: .2rem 0;
+    font-weight: 300;
+}
+
+.contact-info p i{
+    position: relative;
+    top: 2px;
+    margin-right: 5px;
+}
+
+.icon-tags{
+    margin: 1.5rem 0 0 0;
+}
+
+.icon-tags i{
+    margin: 0 .8rem 0 1px;
+    font-size: 20px;
+}

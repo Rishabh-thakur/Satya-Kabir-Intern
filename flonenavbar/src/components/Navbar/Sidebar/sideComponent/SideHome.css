@@ -1,0 +1,53 @@
+.sideContainer{
+    display: block;
+    padding-top: .5rem;
+    position: relative;
+    left: 1rem;
+    background-color: rgba(240, 234, 234, 0.685);
+}
+
+.sideContainer span{
+width: 100%;
+display: block;
+padding: 4px;
+}
+
+.sideContainer span h3{
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.sideContainer span h3:hover{
+    color: blueviolet;
+    /* font-weight: 600; */
+}
+
+.sideContainer span i{
+    display: block;
+    position: relative;
+    left: -1.2rem;
+    cursor: pointer;
+}
+
+.list-item1 ul li a{
+    font-size: 12.4px;
+    font-weight: 500;
+    background-color: rgba(240, 234, 234, 0.685);
+}
+
+.list-item1 ul{
+    padding: 6px 2px;
+    background-color: rgba(240, 234, 234, 0.685);
+}
+
+.list-item1 ul li{
+    margin-left: 1.3rem;
+}
+
+.page-layout ul li a{
+    background-color: rgba(240, 234, 234, 0.685);
+    font-weight: 400;
+    font-size: 13px;
+}

@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap');
+
+.divContainer{
+    background-color: rgb(248, 248, 244);
+    padding-top: 0rem;
+    height: 5rem;
+}
+
+.container{
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 20px;
+}
+
+.container h1{
+    font-size: 3rem;
+    margin: 0rem 5rem 0 0;
+}
+
+.menuBar > ul {
+display: flex;
+height: 100%;
+}
+
+.menuBar > ul > li {
+    list-style: none;
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+}
+
+.menuBar > ul > li > a {
+    text-decoration: none;
+    box-sizing: border-box;
+    color: rgb(12, 12, 12);
+    display: block;
+    height: 18vh;
+    padding: 1.4rem .6rem;
+    margin: .4rem 0 0 0;
+}
+
+.menuBar > ul > li > a:hover {
+    text-decoration: none;
+    font-weight: 500;
+    color: rgb(136, 31, 235);
+}
+
+.iconMenu{
+    margin: 8px 0 0 0;
+}
+
+.iconMenu > ul{
+   display: flex;
+}
+
+.iconMenu > ul > li{
+    list-style: none;
+    margin: 1.4rem .3rem;
+}
+
+.iconMenu > ul > li>a {
+    text-decoration: none;
+   display: block;
+   width: 1.4rem;
+    padding: 0 4px 0 0;
+    font-size: large;
+    color: black;
+}
+
+.iconMenu > ul > li>a :hover {
+    text-decoration: none;
+    font-weight: 600;
+    
+    color: rgb(159, 64, 222);
+}
+
+.badgeIcon{
+    width: 20px;
+    display: block;
+    margin-right: .4rem;
+}
+
+.sidebar-toggle{
+    height: 1.7em;
+}
+
+.sidebar-menu{
+    display: flex;
+    position: absolute;
+}

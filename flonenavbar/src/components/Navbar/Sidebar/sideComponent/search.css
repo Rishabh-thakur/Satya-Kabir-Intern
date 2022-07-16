@@ -1,0 +1,46 @@
+.input-field {
+    position: absolute;
+    z-index: 9;
+    top: 0rem;
+    left: 4.5rem;
+    width: calc(100% - 9px);
+    margin-left: 0;
+    height: 9.2vh;
+    padding: 13px;
+    border: none;
+    background-color: #e6e6e6;
+}
+
+.input-field:focus{
+    border: 0px;
+    
+}
+
+.icon-search{
+    position: absolute;
+    z-index: 999;
+    top: 1.5rem;
+    right: 0.8rem;
+    color: rgb(91, 91, 86);
+    opacity: .6;
+}
+
+
+.input-close{
+  display: block;
+    position: absolute;
+    top: 1.6rem;
+    right: 3rem;
+    opacity: .5;
+    z-index: 999999;
+}
+
+@media screen and (max-width : 450px){
+    .input-field{
+        left: 3rem;
+    }
+
+    .icon-close{
+        height: 12.5vh;
+    }
+}  

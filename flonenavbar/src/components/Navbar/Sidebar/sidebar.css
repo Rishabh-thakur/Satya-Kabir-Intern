@@ -1,0 +1,89 @@
+#sidebarContainer {
+    width: 22rem;
+    height: 100%;
+    background-color: rgba(240, 234, 234, 0.685);
+    /* position: fixed; */
+}
+
+.main-container {
+    position: fixed;
+    display: flex;
+    top: 0rem;
+    height: 100vh;
+    width: 400px;
+    z-index: 999999;
+    right: 0rem;
+    max-width: 100%;
+    transition: .6s;
+    transform: translateX(100%);
+}
+
+.main-container.active{
+    transform: translateX(0);
+}
+
+.icon-close{
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ width: 12vw;
+ height: 13.5vh;
+ background-color: rgb(43, 40, 40);
+ color: rgb(237, 232, 232);
+ font-size: 2rem;
+}
+
+
+.sliding{
+    background-color: rgba(240, 234, 234, 0.685);
+    position: relative;
+    height: 100%;
+    padding: 0 1rem;
+    overflow: auto;
+}
+
+.sliding ul{
+    list-style: none;
+    height: auto;
+    background-color: rgba(240, 234, 234, 0.685);
+}
+
+.sliding ul li{
+    padding: .5em .1rem;
+    display: block;
+    position: relative;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.sliding ul li span{
+    width: 100%;
+    display: flex;
+    z-index: 0;
+    justify-content: space-between;
+}
+
+.sliding ul li a{
+    text-decoration: none;
+    color: black;
+    width: 100%;
+    font-size: .9rem;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.sliding ul li a:hover{
+    color: rgb(201, 40, 174);
+}
+
+.sliding ul li i{
+ position: relative;
+ top: 3px;
+ z-index: 0;
+ margin-right: 10px;
+}
+
+.Menu-jar{
+    height: 100%;
+    margin-top: 14vh;
+}
